@@ -24,9 +24,9 @@ TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
 SECRET_KEY = '0m*f4x!o)kf&ygcoars2qj(21qqu((niw-yr%5^zzwt!)rw2&f'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['learningtemplates.herokuapp.com','127.0.0.1:8000']
 
 
 # Application definition
